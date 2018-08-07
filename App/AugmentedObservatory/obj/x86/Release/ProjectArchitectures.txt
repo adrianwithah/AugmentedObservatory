@@ -1,0 +1,2 @@
+C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\AugmentedObservatory.csproj;x86
+C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86

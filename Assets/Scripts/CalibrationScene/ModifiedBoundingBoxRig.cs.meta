@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 3486d6598d1f36a498e3e70d1e1dec1c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scaleHandleMaterial: {fileID: 2100000, guid: 4a9072a0d8623aa44abf31f02d209a09,
+      type: 2}
+  - rotateHandleMaterial: {fileID: 2100000, guid: 4a9072a0d8623aa44abf31f02d209a09,
+      type: 2}
+  - interactingMaterial: {fileID: 2100000, guid: b614a09bc429623478e946d8170b15ae,
+      type: 2}
+  - boundingBoxPrefab: {fileID: 114407913433822778, guid: 89a2a73150598874ba827d109d73af91,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

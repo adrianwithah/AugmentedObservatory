@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InitialiseCommonsScene.unity
+    guid: 93cfab2fd68be0440a7fac55dd76a94e
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 51ee37460d5b1b84ba0129cb329877f8
+  - enabled: 1
+    path: Assets/Scenes/CalibrationScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/FineLocalisationScene.unity
+    guid: 07d0bf54504d537449757f8c8e611e27
+  m_configObjects: {}

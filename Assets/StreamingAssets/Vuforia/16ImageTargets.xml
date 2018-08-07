@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="panel47" size="0.167000 0.167000" />
+    <ImageTarget name="panel46" size="0.167000 0.167000" />
+    <ImageTarget name="panel45" size="0.167000 0.167000" />
+    <ImageTarget name="panel44" size="0.167000 0.167000" />
+    <ImageTarget name="panel43" size="0.167000 0.167000" />
+    <ImageTarget name="panel42" size="0.167000 0.167000" />
+    <ImageTarget name="panel41" size="0.167000 0.167000" />
+    <ImageTarget name="panel40" size="0.167000 0.167000" />
+    <ImageTarget name="panel39" size="0.167000 0.167000" />
+    <ImageTarget name="panel38" size="0.167000 0.167000" />
+    <ImageTarget name="panel37" size="0.167000 0.167000" />
+    <ImageTarget name="panel36" size="0.167000 0.167000" />
+    <ImageTarget name="panel35" size="0.167000 0.167000" />
+    <ImageTarget name="panel34" size="0.167000 0.167000" />
+    <ImageTarget name="panel33" size="0.167000 0.167000" />
+    <ImageTarget name="panel32" size="0.167000 0.167000" />
+  </Tracking>
+</QCARConfig>
