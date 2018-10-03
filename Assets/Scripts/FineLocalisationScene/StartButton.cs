@@ -3,17 +3,8 @@ using System.Collections.Generic;
 using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 
+// Button to start the test.
 public class StartButton : MonoBehaviour, IInputClickHandler {
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public void OnInputClicked(InputClickedEventData eventData)
     {

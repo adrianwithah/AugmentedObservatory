@@ -4,20 +4,15 @@ using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 
 public class FineLocalisationPanel : MonoBehaviour, IInputClickHandler {
-
-    // Use this for initialization
-    void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void OnInputClicked(InputClickedEventData eventData)
     {
+		if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+        
 		RaycastHit hit = GazeManager.Instance.HitInfo;
+		CustomAudioManager.Instance.PlayInputClicked();
 		TestManager.Instance.SubmitCoordinatesPressed(hit.collider.transform.InverseTransformPoint(hit.point), gameObject);
     }
 }

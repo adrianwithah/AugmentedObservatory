@@ -10,6 +10,11 @@ public class FineLocalisationMainMenuButton : MonoBehaviour, IInputClickHandler
 {
     public void OnInputClicked(InputClickedEventData eventData)
     {
+		if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+        
 		StartCoroutine(GoToMainMenu());
     }
 

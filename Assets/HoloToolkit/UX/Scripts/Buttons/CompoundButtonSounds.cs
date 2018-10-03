@@ -10,6 +10,7 @@ namespace HoloToolkit.Unity.Buttons
     /// A convenient way to play sounds in response to button actions / states
     /// </summary>
     [RequireComponent(typeof(CompoundButton))]
+    [RequireComponent(typeof(AudioSource))]
     public class CompoundButtonSounds : ProfileButtonBase<ButtonSoundProfile>
     {
         const float MinTimeBetweenSameClip = 0.1f;
@@ -103,10 +104,12 @@ namespace HoloToolkit.Unity.Buttons
                 lastClipTime = Time.realtimeSinceStartup;
                 if (audioSource != null)
                 {
+                    Debug.Log("Playing clip using audio source..");
                     audioSource.PlayOneShot(clip, volume);
                 }
                 else
                 {
+                    Debug.Log("Playing clip using UnityEngine audio source..");
                     AudioSource.PlayClipAtPoint(clip, transform.position, volume);
                 }
             }

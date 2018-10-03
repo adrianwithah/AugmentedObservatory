@@ -13,7 +13,7 @@ namespace HoloToolkit.Unity.InputModule
     {
         [Tooltip("Number of samples that you want to iterate on.")]
         [Range(40, 120)]
-        public int StoredStabilitySamples = 60;
+        public int StoredStabilitySamples = 120;
 
         private Vector3 stablePosition;
         public override Vector3 StablePosition

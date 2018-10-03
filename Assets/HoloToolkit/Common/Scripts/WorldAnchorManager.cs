@@ -291,6 +291,7 @@ namespace HoloToolkit.Unity
                 Debug.LogWarning("[WorldAnchorManager] RemoveAnchor called before anchor store is ready.");
             }
 
+            Debug.Log("Enqueueing remove operation...");
             LocalAnchorOperations.Enqueue(
                 new AnchorAttachmentInfo
                 {
@@ -349,13 +350,15 @@ namespace HoloToolkit.Unity
         }
 
         /// <summary>
-        /// Removes all objects with anchors from the scene.
+        /// Same functionality as RemoveAllAnchors. However, also deletes the gameObject
+        /// the anchor was attached to as well. This is a custom method created
+        /// for the purpose of this AugmentedObservatory application.
         /// </summary>
         public void RemoveAllObjectsWithAnchors()
         {
 #if !UNITY_WSA || UNITY_EDITOR
             Debug.LogWarning("World Anchor Manager does not work for this build. RemoveAnchor will not be called.");
-#else   
+#else
             SpatialMappingManager spatialMappingManager = SpatialMappingManager.Instance;
 
             // This case is unexpected, but just in case.
@@ -364,14 +367,9 @@ namespace HoloToolkit.Unity
                 Debug.LogWarning("[WorldAnchorManager] RemoveAllAnchors called before anchor store is ready.");
             }
 
-            Debug.Log("Finding anchors..");
-
             var anchors = FindObjectsOfType<WorldAnchor>();
 
-            if (anchors == null) {
-                Debug.Log("No anchors found!");
-                return;
-            }
+            if (anchors == null) { return; }
 
             for (var i = 0; i < anchors.Length; i++)
             {
@@ -390,8 +388,14 @@ namespace HoloToolkit.Unity
                     }
                 }
                 
-                AnchorGameObjectReferenceList.Remove(anchors[i].name);
                 Destroy(anchors[i].gameObject);
+
+                LocalAnchorOperations.Enqueue(new AnchorAttachmentInfo
+                {
+                    AnchorName = anchors[i].name,
+                    AnchoredGameObject = null,
+                    Operation = AnchorOperation.Delete
+                });
             }
 #endif
         }

@@ -5,6 +5,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Vuforia;
 
+// Responsible for setting up the general environment before entering any specific scene.
+// Makes sure cursor persists across scenes. Also, disable Vuforia until user enters
+// CalibrationScene.
 public class Initialiser : MonoBehaviour {
 
 	[SerializeField]
@@ -12,7 +15,10 @@ public class Initialiser : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		VuforiaBehaviour.Instance.enabled = false;
+		if (VuforiaBehaviour.Instance != null) {
+			VuforiaBehaviour.Instance.enabled = false;
+		}
+		
 		InitialiseCursor();
 		StartCoroutine(LoadMainMenuScene());
 	}

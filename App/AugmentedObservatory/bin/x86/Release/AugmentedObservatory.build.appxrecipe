@@ -413,6 +413,9 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\64ImageTargets.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\64ImageTargets.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\ColumnImageTargets.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ColumnImageTargets.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
     </AppxPackagedFile>
@@ -455,6 +458,9 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level3">
       <PackagePath>Data\level3</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level4">
+      <PackagePath>Data\level4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
@@ -479,6 +485,9 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets3.assets">
       <PackagePath>Data\sharedassets3.assets</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets4.assets">
+      <PackagePath>Data\sharedassets4.assets</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
     </AppxPackagedFile>
@@ -491,6 +500,9 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level3.resS">
       <PackagePath>Data\level3.resS</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level4.resS">
+      <PackagePath>Data\level4.resS</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
@@ -500,20 +512,26 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets2.assets.resS">
       <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets4.assets.resS">
+      <PackagePath>Data\sharedassets4.assets.resS</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets1.resource">
-      <PackagePath>Data\sharedassets1.resource</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\16ImageTargets.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\16ImageTargets.dat</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\64ImageTargets.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\64ImageTargets.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\ColumnImageTargets.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ColumnImageTargets.dat</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>

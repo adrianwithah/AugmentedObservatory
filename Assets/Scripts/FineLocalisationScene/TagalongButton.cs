@@ -5,27 +5,32 @@ using HoloToolkit.Unity.Buttons;
 using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 
-public class TagalongButton : MonoBehaviour {
+// Button which allows users to toggle tagalong behaviour on/off.
+public class TagalongButton : MonoBehaviour, IInputClickHandler {
 
-	private bool tagalongOn = true;
 	private CompoundButtonText buttonText;
 	private Toolbar toolbar;
+	private Tagalong tagalong;
 
 	void Start () {
-		toolbar = GameObject.Find("Toolbar").GetComponent<Toolbar>();
-		buttonText = gameObject.GetComponent<HoloToolkit.Unity.Buttons.CompoundButtonText>();
+		toolbar = FindObjectOfType<Toolbar>();
+		tagalong = toolbar.EnsureComponent<Tagalong>();
+		buttonText = gameObject.GetComponent<CompoundButtonText>();
 	}
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-		if (tagalongOn) {
-			toolbar.PauseTagalong();
+		if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+        
+		if (tagalong.enabled) {
+			tagalong.enabled = false;
 			buttonText.Text = "Tagalong off";
 		} else {
-			toolbar.ResumeTagalong();
+			tagalong.enabled = true;
 			buttonText.Text = "Tagalong on";
 		}
-
-		tagalongOn = !tagalongOn;
     }
 }

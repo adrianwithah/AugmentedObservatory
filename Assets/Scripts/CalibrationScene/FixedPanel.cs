@@ -4,29 +4,12 @@ using HoloToolkit.Unity;
 using HoloToolkit.Unity.InputModule;
 using UnityEngine;
 
+// GameObject wired to serve as panel in augmented panel. Instantiated
+// when tapped on Panel prefab in order to lock panel in position.
 public class FixedPanel : MonoBehaviour, IInputClickHandler {
 
+	// Stores the corresponding Vuforia Image Target
 	private GameObject imageTarget;
-
-	public GameObject ImageTarget {
-		get {
-			return this.imageTarget;
-		}
-
-		private set {
-			this.imageTarget = value;
-		}
-	}
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public void RegisterImageTarget(GameObject imageTarget) {
 		this.imageTarget = imageTarget;
@@ -36,11 +19,30 @@ public class FixedPanel : MonoBehaviour, IInputClickHandler {
 		}
 	}
 
+	
     public void OnInputClicked(InputClickedEventData eventData)
     {
-		Debug.Log("Removing world anchor and destroying object!");
-		WorldAnchorManager.Instance.RemoveAnchor(imageTarget.name);
-		imageTarget.SetActive(true);
+		if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+
+		// WorldAnchorManager.Instance.RemoveAnchor(imageTarget.name);
+		// imageTarget.SetActive(true);
 		Destroy(gameObject);
     }
+
+	// Removes anchor and re-enable the corresponding Vuforia Image Target
+	// in order to allow further adjusting.
+	void OnDestroy() {
+		WorldAnchorManager anchorManager = WorldAnchorManager.Instance;
+
+		if (anchorManager != null && imageTarget != null) {
+			anchorManager.RemoveAnchor(imageTarget.name);
+		}
+
+		if (imageTarget != null) {
+			imageTarget.SetActive(true);
+		}
+	}
 }

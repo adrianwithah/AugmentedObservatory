@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B448196C41C4911D547C156C30DA861E034965EA2F2CD9B6E1553650E6466427</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>766F275EF8410EBF53EEF64C5FD2940FE09821BE61EB130A2A37431580810C91</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Template3D_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Template3D</RegisteredPackageID>
@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-06T12:25:31.447</Modified>
+      <Modified>2018-09-25T14:16:43.025</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\bin\x86\Release\AugmentedObservatory.exe">
       <PackagePath>entrypoint\AugmentedObservatory.exe</PackagePath>
-      <Modified>2018-08-06T12:25:10.434</Modified>
+      <Modified>2018-09-25T14:16:18.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -501,7 +501,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2018-08-06T12:24:09.903</Modified>
+      <Modified>2018-09-25T14:14:52.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
@@ -550,6 +550,10 @@
       <PackagePath>Data\StreamingAssets\Vuforia\64ImageTargets.xml</PackagePath>
       <Modified>2018-07-25T13:11:36.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\ColumnImageTargets.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\ColumnImageTargets.xml</PackagePath>
+      <Modified>2018-08-09T10:28:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
       <Modified>2018-06-27T11:14:18.000</Modified>
@@ -584,27 +588,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2018-08-06T12:23:52.328</Modified>
+      <Modified>2018-09-25T14:14:35.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2018-08-06T12:23:50.769</Modified>
+      <Modified>2018-09-25T14:14:22.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2018-08-06T12:23:45.080</Modified>
+      <Modified>2018-09-25T14:14:15.767</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level1">
       <PackagePath>Data\level1</PackagePath>
-      <Modified>2018-08-06T12:23:46.270</Modified>
+      <Modified>2018-09-25T14:14:16.483</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level2">
       <PackagePath>Data\level2</PackagePath>
-      <Modified>2018-08-06T12:23:47.153</Modified>
+      <Modified>2018-09-25T14:14:17.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level3">
       <PackagePath>Data\level3</PackagePath>
-      <Modified>2018-08-06T12:23:47.883</Modified>
+      <Modified>2018-09-25T14:14:18.118</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level4">
+      <PackagePath>Data\level4</PackagePath>
+      <Modified>2018-09-25T14:14:19.793</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -612,71 +620,83 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2018-08-06T12:23:52.319</Modified>
+      <Modified>2018-09-25T14:14:35.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2018-08-06T12:23:50.894</Modified>
+      <Modified>2018-09-25T14:14:22.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2018-08-06T12:23:50.909</Modified>
+      <Modified>2018-09-25T14:14:22.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2018-08-06T12:23:51.631</Modified>
+      <Modified>2018-09-25T14:14:30.834</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets1.assets">
       <PackagePath>Data\sharedassets1.assets</PackagePath>
-      <Modified>2018-08-06T12:23:51.666</Modified>
+      <Modified>2018-09-25T14:14:30.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets2.assets">
       <PackagePath>Data\sharedassets2.assets</PackagePath>
-      <Modified>2018-08-06T12:23:51.723</Modified>
+      <Modified>2018-09-25T14:14:30.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets3.assets">
       <PackagePath>Data\sharedassets3.assets</PackagePath>
-      <Modified>2018-08-06T12:23:51.741</Modified>
+      <Modified>2018-09-25T14:14:30.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets4.assets">
+      <PackagePath>Data\sharedassets4.assets</PackagePath>
+      <Modified>2018-09-25T14:14:31.048</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2018-08-06T12:23:45.070</Modified>
+      <Modified>2018-09-25T14:14:15.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level1.resS">
       <PackagePath>Data\level1.resS</PackagePath>
-      <Modified>2018-08-06T12:23:46.255</Modified>
+      <Modified>2018-09-25T14:14:16.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level2.resS">
       <PackagePath>Data\level2.resS</PackagePath>
-      <Modified>2018-08-06T12:23:47.137</Modified>
+      <Modified>2018-09-25T14:14:17.325</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level3.resS">
       <PackagePath>Data\level3.resS</PackagePath>
-      <Modified>2018-08-06T12:23:47.874</Modified>
+      <Modified>2018-09-25T14:14:18.108</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\level4.resS">
+      <PackagePath>Data\level4.resS</PackagePath>
+      <Modified>2018-09-25T14:14:19.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2018-08-06T12:23:51.621</Modified>
+      <Modified>2018-09-25T14:14:30.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets1.assets.resS">
       <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-      <Modified>2018-08-06T12:23:51.661</Modified>
+      <Modified>2018-09-25T14:14:30.861</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets2.assets.resS">
       <PackagePath>Data\sharedassets2.assets.resS</PackagePath>
-      <Modified>2018-08-06T12:23:51.712</Modified>
+      <Modified>2018-09-25T14:14:30.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets4.assets.resS">
+      <PackagePath>Data\sharedassets4.assets.resS</PackagePath>
+      <Modified>2018-09-25T14:14:31.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2018-08-06T12:24:09.834</Modified>
+      <Modified>2018-09-25T14:14:51.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2018-08-06T12:24:09.838</Modified>
+      <Modified>2018-09-25T14:14:51.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets1.resource">
-      <PackagePath>Data\sharedassets1.resource</PackagePath>
-      <Modified>2018-08-06T12:23:51.674</Modified>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2018-09-25T14:14:30.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\16ImageTargets.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\16ImageTargets.dat</PackagePath>
@@ -685,6 +705,10 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\64ImageTargets.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\64ImageTargets.dat</PackagePath>
       <Modified>2018-07-25T13:11:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\ColumnImageTargets.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\ColumnImageTargets.dat</PackagePath>
+      <Modified>2018-08-09T10:28:50.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
@@ -697,243 +721,243 @@
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-08-06T12:25:12.183</Modified>
+      <Modified>2018-09-25T14:16:20.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.305</Modified>
+      <Modified>2018-09-25T14:16:39.628</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.281</Modified>
+      <Modified>2018-09-25T14:16:39.601</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.419</Modified>
+      <Modified>2018-09-25T14:16:39.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.386</Modified>
+      <Modified>2018-09-25T14:16:39.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.362</Modified>
+      <Modified>2018-09-25T14:16:39.686</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.182</Modified>
+      <Modified>2018-09-25T14:16:39.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.162</Modified>
+      <Modified>2018-09-25T14:16:39.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.255</Modified>
+      <Modified>2018-09-25T14:16:39.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.236</Modified>
+      <Modified>2018-09-25T14:16:39.554</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.208</Modified>
+      <Modified>2018-09-25T14:16:39.526</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.747</Modified>
+      <Modified>2018-09-25T14:16:40.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.WebModule.dll">
       <PackagePath>UnityEngine.WebModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.674</Modified>
+      <Modified>2018-09-25T14:16:40.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.638</Modified>
+      <Modified>2018-09-25T14:16:39.996</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.600</Modified>
+      <Modified>2018-09-25T14:16:39.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.697</Modified>
+      <Modified>2018-09-25T14:16:40.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.722</Modified>
+      <Modified>2018-09-25T14:16:40.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.483</Modified>
+      <Modified>2018-09-25T14:16:39.818</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityWebRequestAssetBundleModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.464</Modified>
+      <Modified>2018-09-25T14:16:39.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.442</Modified>
+      <Modified>2018-09-25T14:16:39.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.511</Modified>
+      <Modified>2018-09-25T14:16:39.854</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.575</Modified>
+      <Modified>2018-09-25T14:16:39.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.554</Modified>
+      <Modified>2018-09-25T14:16:39.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.532</Modified>
+      <Modified>2018-09-25T14:16:39.874</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.772</Modified>
+      <Modified>2018-09-25T14:16:40.140</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.017</Modified>
+      <Modified>2018-09-25T14:16:40.345</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.971</Modified>
+      <Modified>2018-09-25T14:16:40.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.934</Modified>
+      <Modified>2018-09-25T14:16:40.284</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.052</Modified>
+      <Modified>2018-09-25T14:16:40.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.666</Modified>
+      <Modified>2018-09-25T14:16:40.792</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.615</Modified>
+      <Modified>2018-09-25T14:16:40.747</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.590</Modified>
+      <Modified>2018-09-25T14:16:40.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.829</Modified>
+      <Modified>2018-09-25T14:16:40.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.892</Modified>
+      <Modified>2018-09-25T14:16:40.260</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.854</Modified>
+      <Modified>2018-09-25T14:16:40.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2018-08-06T12:23:59.941</Modified>
+      <Modified>2018-09-25T14:14:42.803</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.941</Modified>
+      <Modified>2018-09-25T14:16:41.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.906</Modified>
+      <Modified>2018-09-25T14:16:40.982</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.962</Modified>
+      <Modified>2018-09-25T14:16:41.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.640</Modified>
+      <Modified>2018-09-25T14:16:40.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.809</Modified>
+      <Modified>2018-09-25T14:16:40.173</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.008</Modified>
+      <Modified>2018-09-25T14:16:41.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.745</Modified>
+      <Modified>2018-09-25T14:16:40.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.718</Modified>
+      <Modified>2018-09-25T14:16:40.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.774</Modified>
+      <Modified>2018-09-25T14:16:40.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.886</Modified>
+      <Modified>2018-09-25T14:16:40.960</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.867</Modified>
+      <Modified>2018-09-25T14:16:40.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2018-08-06T12:25:29.839</Modified>
+      <Modified>2018-09-25T14:16:40.920</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.095</Modified>
+      <Modified>2018-09-25T14:16:41.176</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.154</Modified>
+      <Modified>2018-09-25T14:16:41.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.262</Modified>
+      <Modified>2018-09-25T14:16:41.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.284</Modified>
+      <Modified>2018-09-25T14:16:41.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.Analytics.dll">
       <PackagePath>UnityEngine.Analytics.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.316</Modified>
+      <Modified>2018-09-25T14:16:41.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.349</Modified>
+      <Modified>2018-09-25T14:16:41.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Vuforia.UnityExtensions.dll">
       <PackagePath>Vuforia.UnityExtensions.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.426</Modified>
+      <Modified>2018-09-25T14:16:42.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.465</Modified>
+      <Modified>2018-09-25T14:16:42.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.579</Modified>
+      <Modified>2018-09-25T14:16:42.165</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2018-08-06T12:25:30.624</Modified>
+      <Modified>2018-09-25T14:16:42.210</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2018-08-06T12:25:28.141</Modified>
+      <Modified>2018-09-25T14:16:39.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Hadrian\Desktop\Unity\AugmentedObservatory\App\AugmentedObservatory\bin\x86\Release\Core\AugmentedObservatory.exe">
       <PackagePath>AugmentedObservatory.exe</PackagePath>
-      <Modified>2018-08-06T12:25:31.434</Modified>
+      <Modified>2018-09-25T14:16:43.005</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

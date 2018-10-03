@@ -6,13 +6,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Vuforia;
 
-public class CalibrationMainMenuButton : MonoBehaviour, IInputClickHandler
-{
+public class CalibrationMainMenuButton : MonoBehaviour, IInputClickHandler {
 	void Start() {
 		VuforiaBehaviour.Instance.enabled = true;
 	}
-    public void OnInputClicked(InputClickedEventData eventData)
-    {
+
+    public void OnInputClicked(InputClickedEventData eventData) {
+		if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+
 		StartCoroutine(GoToMainMenu());
     }
 
@@ -22,6 +26,8 @@ public class CalibrationMainMenuButton : MonoBehaviour, IInputClickHandler
                             ProgressStyleEnum.None,
                             ProgressMessageStyleEnum.Visible,
                             "Going back to Main Menu scene.");
+
+		TargetsManager.Instance.UnloadActiveDataSets();
 
 		VuforiaBehaviour.Instance.enabled = false;
 

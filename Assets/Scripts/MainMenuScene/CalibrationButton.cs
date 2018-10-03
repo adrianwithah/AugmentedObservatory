@@ -8,6 +8,11 @@ using UnityEngine.SceneManagement;
 public class CalibrationButton : MonoBehaviour, IInputClickHandler {
 	public void OnInputClicked(InputClickedEventData eventData)
     {
+        if (eventData.used) {
+			return;
+		}
+		eventData.Use();
+        
         StartCoroutine(LoadCalibrationSceneAsync());
     }
 
